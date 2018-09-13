@@ -1,4 +1,4 @@
-# Motor Control Algorithm
+# Robotics Algorithm
 
 ## Reference
 * Polynomial Interpolation
