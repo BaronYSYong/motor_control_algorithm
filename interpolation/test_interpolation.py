@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import Interpolation
+import interpolation
 
 def PlotGraph(instant, disp, vel, acc):        
     plt.subplot(311)
@@ -36,8 +36,8 @@ def PlotGraph2(instant1, disp1, vel1, acc1, instant2, disp2, vel2, acc2):
     plt.show()
     
 if __name__ == '__main__':
-    instant1, disp1, vel1, acc1 = Interpolation.ThirdOrderPolynomial([0,1], [10,30], [0,0]) 
-    instant2, disp2, vel2, acc2 = Interpolation.FifthOrderPolynomial([0,1], [10,30], [0,0], [0,0])
+    instant1, disp1, vel1, acc1 = interpolation.ThirdOrderPolynomial([0,1], [10,30], [0,0]) 
+    instant2, disp2, vel2, acc2 = interpolation.FifthOrderPolynomial([0,1], [10,30], [0,0], [0,0])
     PlotGraph2(instant1, disp1, vel1, acc1, instant2, disp2, vel2, acc2)       
     #~ instant, disp, vel, acc = Interpolator.ThirdOrderPolynomial([0,1], [10,30], [-20,-50])
     #~ instant, disp, vel, acc = Interpolator.ThirdOrderPolynomial([2,4], [20,0], [-10,20])
