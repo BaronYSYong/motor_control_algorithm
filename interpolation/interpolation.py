@@ -61,7 +61,7 @@ def ThirdOrderPolynomialMultiPoints(time, position, velocity):
     acc = []
     
     for p in range(len(time)-1):
-        print time[p], time[p+1]
+        print(time[p], time[p+1])
         for t in list(drange(time[p], time[p+1], '0.1')):
             instant.append(t)
             disp.append(a0 + a1*(t-time[0]) + a2*pow(t-time[0],2) + a3*pow(t-time[0],3))
