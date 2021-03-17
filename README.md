@@ -10,4 +10,4 @@
    * http://robotsforroboticists.com/pid-control/
 * [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics#rapidly-exploring-random-trees-rrt)
 * https://myenigma.hatenablog.com/entry/2017/07/23/095511
-   
+* [MODERN ROBOTICS](https://modernrobotics.northwestern.edu/nu-gm-book-resource/)
